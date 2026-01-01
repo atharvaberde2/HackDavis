@@ -29,8 +29,8 @@ from dotenv import load_dotenv
 import openai
 from flask_cors import CORS
 load_dotenv()
-agent_id = os.getenv("Ydj4pj2XPkB8E7ypVzgU")
-api_key = os.getenv("sk_e534a055914e362af1ffc02ce5266967b40b0268dd04773e")
+agent_id = os.getenv("")
+api_key = os.getenv("")
 client = ElevenLabs(api_key=os.getenv("ELEVENLABS_API_KEY"))
 openai.api_key = os.getenv("OPENAI_API_KEY")
 genai.configure(api_key= "AIzaSyD6kMAT2p-u6IkT9aIusodwV9y9F_6jlMk")
